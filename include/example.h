@@ -17,12 +17,12 @@ class Dummy {
   bool doSomething();
 };
 
-
-#ifdef ENABLE_DOCTEST_IN_LIBRARY
-#include "doctest.h"
-TEST_CASE("we can have tests in headers if we want")
-{
-    Dummy d;
-    CHECK(d.doSomething() == true);
-}
-#endif
+//
+//#ifdef ENABLE_DOCTEST_IN_LIBRARY
+//#include "doctest.h"
+//TEST_CASE("we can have tests in headers if we want")
+//{
+//    Dummy d;
+//    CHECK(d.doSomething() == true);
+//}
+//#endif
